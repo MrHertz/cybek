@@ -1,9 +1,9 @@
-/**
-    $q (string) - подготовленный запрос
-    $t (array) - тип передаваемых параметров
-    $p (array) - сами параметры
-*/
 <?php
+/**
+	$q (string) - подготовленный запрос
+	$t (array) - тип передаваемых параметров
+	$p (array) - сами параметры
+ */
 class Sql {
 		private $sql, $stmt;
     function __construct() {
